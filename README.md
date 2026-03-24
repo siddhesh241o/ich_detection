@@ -42,7 +42,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 # Option A: put best.pt in repo root
 # Option B: set custom model path
-export VOLUYOLO_MODEL_PATH="/path/to/best.pt"
+export VOLUYOLO_MODEL_PATH="relative path of best.pt file"
 streamlit run app.py
 ```
 
