@@ -29,7 +29,7 @@ python -m venv .venv
 pip install -r requirements.txt
 # Option A: put best.pt in repo root
 # Option B: set custom model path
-$env:VOLUYOLO_MODEL_PATH="C:\path\to\best.pt"
+$env:VOLUYOLO_MODEL_PATH="relative path of best.pt file"
 streamlit run app.py
 ```
 
